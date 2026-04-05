@@ -1,5 +1,6 @@
 # TASK REMINDER
 HTML5, CSS3, JavaScript, and Bootstrap are core technologies used to build modern websites and web applications.
+A to-do list is a simple tool used to write down tasks or activities that need to be completed. It helps individuals stay organized, manage their time effectively, and remember important responsibilities. The main purpose of a to-do list is to prioritize work, increase productivity, and ensure tasks are completed in an efficient and timely manner.
 
 Login Page :
 
@@ -12,4 +13,4 @@ SignUp Page :
 Home Page :
 
 ![image alt](https://github.com/shi150/To-Do-List--Application/blob/2759585f44baa920e635a9c0b3b41db6259f9234/Screenshot%202026-03-13%20091638.png)
-![image alt]()
+![image alt](https://github.com/shi150/To-Do-List--Application/blob/282860a1d0705133dc4540f64df5b25778ade9fa/Screenshot%202026-03-13%20091922.png)
