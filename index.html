@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Todo App</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="main-header">
+
+<div class="top-left">
+    <div class="logo">
+        <img src="images/logo1.png">
+    </div>
+    
+</div>
+
+<div class="top-right">
+    <div class="user-info">
+        <img id="profilePic" class="profile">
+        <span id="welcomeText"></span>
+    </div>
+    <button onclick="logout()" class="logout">Logout</button>
+</div>
+
+</header>
+
+
+<!-- Main Container -->
+<div class="container">
+
+<h1>To-Do List</h1>
+
+<!-- Add Task -->
+<input id="taskInput" type="text" placeholder="Enter task">
+
+<select id="priorityInput">
+<option  style="color: black;" value="Low">Low Priority</option>
+<option style="color: black;" value="Medium">Medium Priority</option>
+<option style="color: black;" value="High">High Priority</option>
+</select>
+
+<input type="date" id="taskDate">
+
+<select id="taskStatus">
+<option style="color: black;" value="new">New Task</option>
+<option style="color: black;" value="pending">Pending Task</option>
+<option style="color: black;" value="old">Old Task</option>
+</select>
+
+<button onclick="addTask()">Add Task</button>
+
+<br><br>
+<hr>
+<br>
+
+<!-- Filter Tasks -->
+<h3>View Tasks by Date</h3>
+
+<input type="date" id="filterDate" onchange="filterTasks()">
+
+<ul id="taskList"></ul>
+
+</div>
+
+<div class="task-sections">
+
+<div class="task-box">
+<h2>New Tasks</h2>
+<ul id="newTasks"></ul>
+</div>
+
+<div class="task-box">
+<h2>Pending Tasks</h2>
+<ul id="pendingTasks"></ul>
+</div>
+
+<div class="task-box">
+<h2>Old Tasks</h2>
+<ul id="oldTasks"></ul>
+</div>
+
+</div>
+<!-- Scripts -->
+<script src="auth.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
